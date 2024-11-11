@@ -39,7 +39,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  https://www.klm.nl
   #### Screenshot(s) van de eerste pagina (small screen): 
  Home pagina
-  <img src="readmes-images/klm_homepage.pdf" width="375px" alt="homepagina van KLM">
+  <img src="readme-images/klm_homepage.pdf" width="375px" alt="homepagina van KLM">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  

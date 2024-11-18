@@ -33,3 +33,14 @@ header img {width: 15em;
 	margin-top: -5em;
 
 }
+
+
+
+
+header nav ul {
+
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	gap: 1em;
+}

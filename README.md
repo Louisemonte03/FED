@@ -33,7 +33,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Je website
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary> uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
  https://www.klm.nl
@@ -54,8 +54,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
+
+
+
+
+
+
+
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+
+
+  uit de WCAG test kwam uit dat de website niet gebruikt maak v
 
 </details>
 

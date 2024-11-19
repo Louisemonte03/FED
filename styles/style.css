@@ -130,6 +130,88 @@ h1 {
 
 /* bovenste gedeelte van de website */
 
+
+main section:nth-of-type(2){
+  display: flex;
+  gap: 20px; 
+  justify-content: space-between;
+  margin-left: 3em;
+  margin-right: 3em;
+  padding-bottom: 10em;
+
+}
+
+
+main section:nth-of-type(2) img {
+  width:100%; 
+}
+
+section article:nth-of-type(1) {
+  background-color: #017cc3;
+}
+
+section article:nth-of-type(2) {
+  background-color: #017cc3;
+
+}
+
+section article:nth-of-type(3) {
+  background-color: #FFDB00;
+}
+
+
+main section:nth-of-type(2) p {
+  color: white;
+  font-family: "Ikea font";
+  font-size: 20px;
+  padding-left: 1.5em;
+  padding-bottom: 7em;
+
+}
+main section:nth-of-type(2) h3 {
+  color: white;
+  font-family: "Ikea font";
+  font-size: 35px;
+  padding: 1em;
+}
+  
+
 h2 {
-   
+  font-size: 30px;
+  padding: 1em;
+  
+}
+
+
+/*fiets gedeelte van de vrouw*/
+
+main section:nth-of-type(3){
+display: flex;
+align-items: center;
+}
+
+
+main section:nth-of-type(3) article:nth-of-type(1) {
+  background-color: #02853E;
+  color: white;
+}
+
+
+main section:nth-of-type(3) article {
+  display: flex;
+  align-items: center; 
+  gap: 1em;
+}
+
+
+
+
+main section:nth-of-type(4) img {
+  width:15%; 
+  margin-top: 2em;
+}
+
+
+main section:nth-of-type(5) img {
+  width:15%; 
 }

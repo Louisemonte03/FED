@@ -18,7 +18,6 @@ Css
     /* startje */
     --color-text:#111;
     --color-background:#eee;
-    --accent-color
     
 }
 
@@ -44,7 +43,6 @@ Css
 /* jouw code */
 
 body{
-  margin: 0;
   font-family:"Ikea font";
 }
 
@@ -129,3 +127,9 @@ h1 {
   font-size: 25px;
 }
 
+
+/* bovenste gedeelte van de website */
+
+h2 {
+   
+}

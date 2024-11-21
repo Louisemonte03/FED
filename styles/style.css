@@ -352,14 +352,32 @@ footer img:nth-of-type(2)  {
   footer img:nth-of-type(1)  {
     width: 10em;
   }
+footer p {
+  color: rgb(55, 55, 55);
+  font-size: 14px;
+  margin-right: 2em;
+}
+  summary{
+    border-bottom: 1.8px solid #d3d3d3;
+  }
+footer li {
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 3em;
+  color: rgb(55, 55, 55);
 
-
+}
   details summary{
- line-height: 5em;
+ line-height: 6em;
  font-weight: 700;
  font-size: 14px;
+ list-style-type: none;
 
   }
 footer details:nth-of-type(1){
   padding-top: 1em;
+}
+
+footer summary{
+  border-top: 1.8px solid #d3d3d3;
 }

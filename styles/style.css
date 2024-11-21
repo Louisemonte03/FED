@@ -143,25 +143,37 @@ main section:nth-of-type(1) p {
   line-height: 22px;
   padding-bottom: 1em ;
 }
+main section:nth-of-type(1){
+  display: flex;
+  flex-direction: column;
+}
 
+@media (min-width:768px){
+  main section:nth-last-of-type(1){
+    flex-direction: row;
+  }
+}
 
 
 /* swipe funtie met "nu bij IKEA"*/
 
-section article:nth-of-type(1) {
-background-color: #017cc3;
-}
 
-section article:nth-of-type(2) {
+section:nth-of-type(2) article:nth-of-type(1){
   background-color: #017cc3;
+  color: white; 
 }
-section article:nth-of-type(3) {
-  background-color:  #FFDB00;
- }
 
- section article:nth-of-type(4) {
-  background-color:  #000000;
- }
+
+section:nth-of-type(2) article:nth-of-type(2){
+  background-color:  #017cc3;
+  color: white; 
+}
+
+section:nth-of-type(2) article:nth-of-type(3){
+  background-color:  #FFDB00;
+  color: white; 
+}
+
 
 main section:nth-of-type(2) p {
   color: white;
@@ -194,47 +206,7 @@ main section:nth-of-type(2) img {
 
 /* gedeelte met vrouw op de fiets */
 
-
-main section:nth-of-type(3) article:nth-of-type(1) {
-  background-color: #02853E;
-  color: white;
-}
-
-main section:nth-of-type(3){
-  padding-top: 5em;
-}
-
-main section:nth-of-type(3) p {
-  color: white;
-  font-family: "Ikea font";
-  padding-left: 1.5em;
-  margin: 1em;
-  padding-bottom: 7em;
-  margin-top: -1.5em;
-
-}
-
-main section:nth-of-type(3) h4 {
-  color: white;
-  font-family: "Ikea font";
-  padding-left: 1.5em;
-  margin: 1em;
-  padding-bottom: 1em;
-  padding-top: 1em;
-
-}
-main section:nth-last-of-type(3) {
-  display: flex;
-flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
-main section:nth-of-type(3) article {
-  display: flex;
-  flex-direction: column;
-
-}
+/*NOG DOEN hier */
 
 /* section met de ruimtes scroll functie */
 
@@ -269,13 +241,13 @@ main section:nth-of-type(5) {
   /* belangrijke mededelingn stukje section */
 
 
-main div p {
+main section:nth-of-type(6) p {
   color: rgb(85, 85, 85);
   font-size: 14px;
   line-height: 22px;
 }
 
-main div ul {
+main section:nth-of-type(6) ul{
   color: rgb(85, 85, 85);
   font-size: 14px;
   line-height: 30px;
@@ -284,66 +256,61 @@ main div ul {
 /* powerbank melding stukje div, Ik heb er een div van gemaakt omdat de section niet werkt. Als ik een section aan roep in mijn main dan verspringt mijn section 4 in de main  dus ik doe het nu even met divs*/
 
 
-
-main div:nth-of-type(2)
-{
+main section:nth-of-type(7) {
   background-color:#484848;
   color: #eee;
   padding: 1em;
   padding-bottom: 5em;
+
 }
 
-
-main div:nth-of-type(2) li
-{
+main section:nth-of-type(7) li {
   color: #eee;
   font-size: 15px;
   margin: 1em;
+
 }
 
-main div:nth-of-type(2) h2
-{
-
+main section:nth-last-of-type(7) h2 {
   color: #eee;
   margin: 1em;
 
-}
+} 
+
 
 /* gedeelte van de ideeen op basis van producten */
 
-main div:nth-of-type(3) img {
+
+main section:nth-of-type(8) img {
   width:77%;
   height: auto; 
   margin-top: 1em;
-
 }
 
-main div:nth-of-type(3) {
+
+main section:nth-of-type(8){
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory; /*zorgt er voor dat de scroll functie blijft op de pagina en niet naar buiten trekt (gevraagt aan chat)*/
   gap: 15px;
-  
-  }
-
+}
 
   /* gedeelte service van IKEA De services */
 
+main section:nth-of-type(9) img {
+  width:52%;
+  height: auto; 
+  margin-top: 1em;
 
-  main div:nth-of-type(4) img {
-      width:52%;
-      height: auto; 
-      margin-top: 1em;
+}
   
-    }
-  
-    main div:nth-of-type(4) {
-      display: flex;
-      overflow-x: auto;
-      scroll-snap-type: x mandatory; /*zorgt er voor dat de scroll functie blijft op de pagina en niet naar buiten trekt (gevraagt aan chat)*/
-      gap: 15px;
-      
-      }
+main section:nth-of-type(9) {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory; /*zorgt er voor dat de scroll functie blijft op de pagina en niet naar buiten trekt (gevraagt aan chat)*/
+  gap: 15px;
+
+}
 
 
       /* overige */
@@ -359,10 +326,55 @@ button {
 
 }
 
-main div:nth-of-type(5) {
+main section:nth-of-type(10) {
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory; /*zorgt er voor dat de scroll functie blijft op de pagina en niet naar buiten trekt (gevraagt aan chat)*/
   gap: 15px;
 
+  }
+
+
+  /* gedeelte met word ikea lid */
+
+
+
+  main section:nth-of-type(11) {
+    background-color: #F5F5F5;
+    padding-bottom: 3em;
+ }
+
+
+ main section:nth-of-type(11) h3 {
+  font-size: 16px;
+  padding-top: 4em;
+}
+
+
+main section:nth-of-type(11) p {
+  font-size: 15px;
+}
+
+  main section:nth-of-type(11) button{
+    font-size: 12px;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: black;
+    color: white;
+    
+  }
+
+
+  main section:nth-of-type(11) h5 {
+    font-size: 15px;
+    line-height: 3.5em;
+  }
+
+  main section:nth-of-type(11) img {
+    width: 15em;
+  }
+
+  main section:nth-of-type(11) img:nth-of-type(2) {
+    width: 30em;
   }

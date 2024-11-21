@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier je startniveau (Rood)
 
   #### Je focus:
-  hier je focus (surface plane)
+  hier je focus (Responsive)
  
 </details>
 
@@ -36,14 +36,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary> uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
- https://www.klm.nl
+https://www.ikea.com/nl/nl/
   #### Screenshot(s) van de eerste pagina (small screen): 
- Home pagina
-  <img src="readme-images/klm_homepage.pdf" width="375px" alt="homepagina van KLM">
+Home pagina
+  <img src="readme-images/homepagina_IKEA.pdf" width="375px" alt="homepagina van KLM">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/info_page.pdf" width="375px" alt="Infop pagina van KLM">
+  <img src="readme-images/pagina_ontdekruimte.pdf" width="375px" alt="De ontdek een ruimte bij IKEA">
  
 </details>
 
@@ -57,15 +57,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-
-
-
-
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  Uit mijn fyisieke test kwam naar voren dat ikea voor mij perfect scoort op toegankelijkheid. Namelijk detoegangelijkheid met de tap, de kleurgebruikt van IKEA die handige informatie aan geeft. De screen reader die goed werkt duidelijke fout meldingen. Feedback als je ergens op wilt klikken. Dan komt er een balkje onder. De schaalbaarheid dat groter word voor slecht ziende. Dit is voor mij een uitstekend goeie website die denkt aan de toegankelijkheid van andere. IKEA maakt alleen geen gebruik van darkmode. 
 
-  uit de WCAG test kwam uit dat de website niet gebruikt maak v
+Uit de WCAG test kwamen belangrijke bevindingen. Uit de test scoorde IKEA ook goed. Ik kon bij elk element wel "yes" zeggen. Maar IKEA scoort wel slecht op de 'images, media. en animation' daar heb ik veel "no" in moeten vullen. Een paar bevindingen zijn bijvoorbeeld dat IKEA niet werkt met afmetingen als een schermm bijschaaldt. Zij gebruiken voor elk formaat ander soort afbeeldingen. Dus van een plaatje zijn wel 9 varianten. IKEA gbruikt in de code ook geen "alt" (geen beschrijving van de afbeeldingen) Ook maakt IKEA niet echt gebruik van animatie's (dat is over het algemeen niet erg) maar daar scoorde ze laag op. Bij media (video en audio) hebben ze geen audio transcriptions of captions.
 
 </details>
 
@@ -77,14 +74,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets_hele_pagina.pdf" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
+  <img src="readme-images/breakdownschets_menu.pdf" width="375px" alt="breakdown schets van alleen het menu">
 </details>
 
 

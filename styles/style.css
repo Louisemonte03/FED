@@ -127,12 +127,21 @@ main video:nth-of-type(1){
 
 
 h1 {
-  font-size: 23px;
   padding-top: 1em;
+  font-size:clamp(1.5em, 5vw, 2.5em); /* sanne heeft me uit gelegd is dat hij niet groter */
 }
+
+@media (min-width: 786px) {
+  h1 h2 {
+    /* font-size: 36px;   */
+    /* hier word de letterype groter als je het scherm open trekt*/
+  }
+}
+
+
+
 h2 {
-  font-size: 18px;
-  margin-top: 2em;
+  font-size:clamp(0.7em, 3.5vw, 1.5em); 
 }
 
 
@@ -143,65 +152,33 @@ main section:nth-of-type(1) p {
   line-height: 22px;
   padding-bottom: 1em ;
 }
-main section:nth-of-type(1){
+
+main section:nth-of-type(1) img video{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+
 }
 
-@media (min-width:768px){
-  main section:nth-last-of-type(1){
-    flex-direction: row;
+
+@media (width > 40em) {
+  main section:nth-of-type(1) {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1em;
   }
-}
 
+  main section:nth-of-type(1) h1,
+  main section:nth-of-type(1) h2,
+  main section:nth-of-type(1) p {
+    grid-column:1/-1; 
+  }
+
+}
 
 /* swipe funtie met "nu bij IKEA"*/
 
 
-section:nth-of-type(2) article:nth-of-type(1){
-  background-color: #017cc3;
-  color: white; 
-}
-
-
-section:nth-of-type(2) article:nth-of-type(2){
-  background-color:  #017cc3;
-  color: white; 
-}
-
-section:nth-of-type(2) article:nth-of-type(3){
-  background-color:  #FFDB00;
-  color: white; 
-}
-
-
-main section:nth-of-type(2) p {
-  color: white;
-  font-family: "Ikea font";
-  padding-left: 1.5em;
-  margin: 1em;
-  padding-bottom: 7em;
-  margin-top: -1.5em;
-
-}
-main section:nth-of-type(2) h3 {
-  color: white;
-  font-family: "Ikea font";
-  padding: 1em;
-  margin: 1em;
-}
-
-main section:nth-of-type(2) {
-display: flex;
-overflow-x: auto;
-scroll-snap-type: x mandatory; /*zorgt er voor dat de scroll functie blijft op de pagina en niet naar buiten trekt (gevraagt aan chat)*/
-gap: 20px;
-}
-
-
-main section:nth-of-type(2) img {
-  width: 26em;
-}
 
 
 /* gedeelte met vrouw op de fiets */
@@ -210,8 +187,9 @@ main section:nth-of-type(2) img {
 
 /* section met de ruimtes scroll functie */
 
+
 main section:nth-of-type(4) img {
-  width:50%; 
+  width:16em; 
   margin-top: 2em;
 }
 
@@ -223,10 +201,14 @@ main section:nth-of-type(4) {
   }
 
 
+
+
+
+
 /* section met dit mag je niet missen */
 
 main section:nth-of-type(5) img {
-  width:50%; 
+  width:16em; 
   margin-top: 2em;
 }
 
@@ -282,7 +264,7 @@ main section:nth-last-of-type(7) h2 {
 
 
 main section:nth-of-type(8) img {
-  width:77%;
+  width:20em;
   height: auto; 
   margin-top: 1em;
 }
@@ -298,7 +280,7 @@ main section:nth-of-type(8){
   /* gedeelte service van IKEA De services */
 
 main section:nth-of-type(9) img {
-  width:52%;
+  width:15em;
   height: auto; 
   margin-top: 1em;
 
@@ -335,46 +317,49 @@ main section:nth-of-type(10) {
   }
 
 
-  /* gedeelte met word ikea lid */
+  /* gedeelte van footer */
 
-
-
-  main section:nth-of-type(11) {
-    background-color: #F5F5F5;
+footer {
+  background-color: #F5F5F5;
     padding-bottom: 3em;
- }
-
-
- main section:nth-of-type(11) h3 {
-  font-size: 16px;
-  padding-top: 4em;
 }
 
+footer h3 { font-size: 16px;
+  padding-top: 4em;}
 
-main section:nth-of-type(11) p {
-  font-size: 15px;
-}
+footer p {  font-size: 15px; }
 
-  main section:nth-of-type(11) button{
-    font-size: 12px;
+
+footer button {
+  font-size: 12px;
     padding: 1em;
     padding-left: 2em;
     padding-right: 2em;
     background-color: black;
     color: white;
     
-  }
+}
 
 
-  main section:nth-of-type(11) h5 {
-    font-size: 15px;
-    line-height: 3.5em;
-  }
 
-  main section:nth-of-type(11) img {
+footer h5 {font-size: 15px;
+  line-height: 3.5em;
+} 
+
+footer img:nth-of-type(2)  {
     width: 15em;
   }
-
-  main section:nth-of-type(11) img:nth-of-type(2) {
-    width: 30em;
+  footer img:nth-of-type(1)  {
+    width: 10em;
   }
+
+
+  details summary{
+ line-height: 5em;
+ font-weight: 700;
+ font-size: 14px;
+
+  }
+footer details:nth-of-type(1){
+  padding-top: 1em;
+}

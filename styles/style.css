@@ -358,7 +358,7 @@ footer p {
   margin-right: 2em;
 }
   summary{
-    border-bottom: 1.8px solid #d3d3d3;
+    border-bottom: solid #d3d3d3;
   }
 footer li {
   list-style-type: none;
@@ -379,5 +379,10 @@ footer details:nth-of-type(1){
 }
 
 footer summary{
-  border-top: 1.8px solid #d3d3d3;
+  border-top: 1px solid #d3d3d3;
+}
+
+
+main section:nth-of-type(11) img {
+  width: 17em;
 }

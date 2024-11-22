@@ -296,7 +296,7 @@ main section:nth-of-type(9) {
 
 
       /* overige */
-button {
+a {
   background-color: #f2f2f2;
   font-family: "Ikea font";
   padding: 0.1rem;
@@ -305,6 +305,8 @@ button {
   padding-right: 2em;
   border: none;
   font-weight: bold;
+  text-decoration: none;
+  color: #111;
 
 }
 

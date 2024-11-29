@@ -45,7 +45,7 @@ body{
   font-family:"Ikea font";
 }
 
-header section:nth-of-type(1) nav ul li:nth-of-type(1){
+header section:nth-of-type(1) ul li:nth-of-type(1){
   margin-right: auto;
 
 }
@@ -60,7 +60,7 @@ header section:nth-of-type(1) img {
   height: auto;
 }
 
-header section:nth-of-type(1) nav ul{
+header section:nth-of-type(1) ul{
   list-style: none;
   padding: 0;
   margin: 0;
@@ -69,7 +69,7 @@ header section:nth-of-type(1) nav ul{
 
 }
 
-header section:nth-of-type(1) nav li {
+header section:nth-of-type(1) li {
   display: flex;
   align-items: center;
   font-size: 13px;
@@ -86,11 +86,14 @@ header section:nth-of-type(1) {
 
 /*logo en menu balkje*/
 
+
 header section:nth-of-type(2) ul {
   list-style: none;
   display: flex;
+  align-items: center;
  gap: 1em;
 }
+
 header section:nth-of-type(2) li:hover{
   background-color: #eee;
   border-radius: 2em;
@@ -105,10 +108,28 @@ header section:nth-of-type(2) img {
   width: 2em;
 }
 header section:nth-of-type(2) ul li:first-child img {
-  width: 40px;
+  width: 90px;
 }
 
 
+header > nav {
+  position: fixed;
+  inset: 0;
+  background-color: rgb(255, 0, 0);
+  z-index: 1;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+}
+
+header > nav.open {
+  transform: translateX(0);
+}
+header button {
+	z-index: 2;
+	position: relative;
+	border: none;
+	background-color: white;
+}
 
 /* header stukje van de zoek balk */
 
@@ -212,6 +233,7 @@ main section:nth-of-type(2) ul {
   margin:0;
   padding:0;
   list-style-type:"";
+  margin-top: 2em;
   
   display:flex;
   overflow-x:auto;
@@ -586,7 +608,7 @@ main section:nth-of-type(10) {
   margin-bottom: 1em;
   }
 
-  button {
+main section:nth-of-type(10)  button {
     font-size: 12px;
     background-color: #f5f5f5;
     color: black;
@@ -602,7 +624,7 @@ main section:nth-of-type(10) {
     cursor: pointer;
   
   }
-  button:hover {
+  main section:nth-of-type(10) button:hover {
     background-color: #e8e8e8;
   }
 
@@ -612,12 +634,11 @@ main section:nth-of-type(10) {
   footer {
     margin: 0;
     padding: 0;
+    font-family: "Ikea font";
+    background-color: #F5F5F5;
+    padding-bottom: 3em;
   }
 
-footer {
-  background-color: #F5F5F5;
-    padding-bottom: 3em;
-}
 
 footer h4 { font-size: 16px;
  }
@@ -631,7 +652,8 @@ footer button {
     background-color: black;
     color: white;
     margin-bottom: 2em;
-
+    border-radius: 2em;
+font-weight: bold;
 }
 
 footer button:hover {
@@ -639,6 +661,7 @@ footer button:hover {
 }
 
 footer h5 {font-size: 15px;
+
 } 
 
 footer p {
@@ -679,3 +702,17 @@ main section:nth-of-type(11) img {
 }
 
 
+
+
+/* extra */
+
+main a:nth-of-type(1) {
+  list-style: none;
+  color: black;
+text-decoration: none;
+border-bottom: solid 1px;
+ padding-bottom: 1em;
+ border-color: rgb(195, 195, 195);
+ font-weight: 900;
+ font-size: 13px;
+}

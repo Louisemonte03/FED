@@ -548,9 +548,11 @@ display: flex;
 
 
 main section:nth-of-type(17) article {
-background-color: #f1f0f0;
+  background-color: #f1f0f0;
 font-family: "Ikea font";
+
 justify-content: left;
+width: 400em;
 }
 
 

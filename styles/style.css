@@ -495,6 +495,24 @@ main section:nth-of-type(6){
   margin-top: 3em;
 }
 
+main section:nth-of-type(6) {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (width > 40em) {
+  main section:nth-of-type(6) {
+    grid-template-columns: 1fr 1fr;
+  }
+  main section:nth-of-type(6) h2, main section:nth-of-type(6) p, main section:nth-of-type(6) ul {
+grid-column: 1/2;
+  }
+  main section:nth-of-type(6) img{
+    grid-column: 2/3;
+    grid-row: 1;
+  }
+}
+
 
 
 
@@ -698,7 +716,25 @@ footer summary:nth-of-type(4){
 
 
 main section:nth-of-type(11) img {
-  width: 17em;
+  width: 45%;
+  height: 100%;
+}
+
+
+main section:nth-of-type(11) img:nth-of-type(2) {
+  height: 250px;
+  object-fit: cover;
+}
+
+
+main section:nth-of-type(11){
+  display: flex;
+  gap: 10px;
+
+flex-flow: row wrap;
+justify-content: flex-start;
+align-items: flex-start;
+
 }
 
 

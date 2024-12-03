@@ -50,60 +50,6 @@
     padding-top: 1em;
     font-size:clamp(1.5em, 5vw, 2.5em); /* sanne heeft me uit gelegd is dat hij niet groter */
   }
-  header section:nth-of-type(1) {
-    background-color: black;
-    padding: 4px;
-    color: white;
-  }
-  
-  
-  header p {
-    background-color: rgb(238, 238, 238);
-    color: rgb(87, 87, 87);
-    padding: 1em;
-    margin: 1em;
-    border-radius: 5em;
-    font-size: 15px;
-    
-  
-  }
-  
-  nav img {
-    margin-right: 10px;
-    width: 40px;
-    height: auto;
-  }
-  
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  nav li {
-    display: flex;
-    align-items: center;
-    font-size: 13px;
-   
-  }
-  
-  header nav ul li:nth-of-type(1){
-    margin-right: auto;
-  
-  }
-  
-  header section:nth-of-type(1){
-    text-align: right;
-  }
-  
-  header section:nth-of-type(2) img {
-    width: 5em;
-  margin-bottom: -1em;
-  }
-  
   
   /* header ^^^^ */
 
@@ -116,6 +62,8 @@ main section:nth-of-type(1) p {
 }
  h2 {
     font-size: 17px;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 
@@ -130,7 +78,6 @@ main section:nth-of-type(2) img{
 
 main section:nth-of-type(3) img {
     width:14em; 
-    margin-top: 2em;
   }
   
   main section:nth-of-type(3) {
@@ -163,4 +110,328 @@ main section:nth-of-type(3) img {
   main section:nth-of-type(3) article {
     position: relative;
   }
+
+
+/* gedeelte va  het beige rekje*/
+
+
+  main section:nth-of-type(4) article:nth-of-type(2) {
+    color: white;
+  background-color: #d30707;
+  padding-top: 0.5em;
+  padding-bottom: 4em;
+  font-family: "Ikea font";
+  
+  }
+  
+  
+  
+  @media (width > 60em) {
+    main section:nth-of-type(4) {
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+  
+    }
+  }
+  
+  
+  
+  main section:nth-of-type(4) a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 1em;
+    font-weight: bold;
+    border-radius: 5em;
+    font-size: 12px;
+    margin: 3rem;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  
+  main section:nth-of-type(4) h3{
+    margin: 3rem;
+  }
+  main section:nth-of-type(4) p {
+    margin: 3rem;
+    font-size: 14px;
+    margin-top: -3em;
+  }
+
+  main section:nth-of-type(4) img {
+    width: 100%;
+  }
+
+  main section:nth-of-type(4){
+    margin-top: 3em;
+  }
+
+  /* gedeelte met er is geen keuken als die van jou */
+
+
+  main section:nth-of-type(5) p {
+    font-size: 13.5px;
+    color: rgb(86, 86, 86);
+  }
+  main section:nth-of-type(5) {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+/* gedeelte ontwerp zelf in de keuken planner */ 
+
+  main section:nth-of-type(6) ul {
+    margin:0;
+    padding:0;
+    list-style-type:"";
+
+    
+    display:flex;
+    overflow-x:auto;
+    gap:1em;
+    
+    scroll-snap-type:x mandatory;
+    
+    overscroll-behavior-x:contain;
+  }
+  
+  main section:nth-of-type(6) li {
+    scroll-snap-align:center;
+    
+    width:min(80%, 24em);
+    flex-shrink:0;
+    background: #E7B957;
+    
+    display:flex;
+    flex-direction:column;
+  }
+  
+  main section:nth-of-type(6) li:nth-of-type(1){
+    background-color: #E7B957;
+  }
+  main section:nth-of-type(6) li:nth-of-type(2){
+    background-color: #E9C3B0;
+  }
+
+  main section:nth-of-type(6) li:nth-of-type(3){
+    background-color: #D5DCD4;
+  }
+  
+  main section:nth-of-type(6) li img {
+    width:100%;
+    order:-1;
+  }
+  
+  main section:nth-of-type(6) li h3 {
+    margin:0;
+    padding:2rem 2rem 0 2rem;
+  }
+  
+  main section:nth-of-type(6) li p {
+    margin:0;
+    margin-bottom:auto;
+    line-height: 1.7em;
+    padding:0 2rem 0 2rem;
+  }
+  
+  main section:nth-of-type(6) li a {
+    padding:0 2rem 2rem 2rem;
+  }
+  main section:nth-of-type(6) {
+    margin-bottom: 4em;
+    font-family: "Ikea font";
+  }
+  
+  main section:nth-of-type(6) a {
+  background-color: #111;
+  margin: 0;
+  font-family: "Ikea font";
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+    width: 70px; 
+    height: 70px; 
+    line-height: 70px; 
+    text-align: center; 
+    border-radius: 50%;
+    margin: 2em;
+  }
+  
+  @media (width > 40em) {
+    li {
+      width:18em;
+    }
+  }
+
+
+/* gedeelte met man in de keuken */
+
+main section:nth-of-type(7) article:nth-of-type(2) {
+  color: black;
+background-color: #DDBC9C;
+padding-top: 0.5em;
+padding-bottom: 4em;
+font-family: "Ikea font";
+
+}
+
+
+
+@media (width > 60em) {
+  main section:nth-of-type(7) {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+}
+
+
+
+main section:nth-of-type(7) a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 1em;
+  font-weight: bold;
+  border-radius: 5em;
+  font-size: 12px;
+  margin: 3rem;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+main section:nth-of-type(7) h3{
+  margin: 3rem;
+}
+main section:nth-of-type(7) p {
+  margin: 3rem;
+  font-size: 14px;
+  margin-top: -3em;
+}
+
+main section:nth-of-type(7) img {
+  width: 100%;
+}
+
+/* gedeelte met maak je keuken af */
+main section:nth-of-type(9) img {
+  width:14em; 
+}
+
+main section:nth-of-type(9) {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory; /*zorgt er voor dat de scroll functie blijft op de pagina en niet naar buiten trekt (gevraagt aan chat)*/
+  gap: 20px;
+  }
+
+  main section:nth-of-type(9) a {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+    background-color: #f5f5f5;
+    color: black;
+    text-decoration: none;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-weight: 600;
+    border-radius: 40em;
+  }
+
+main section:nth-of-type(9){
+  display: flex;
+}
+
+main section:nth-of-type(9) article {
+  position: relative;
+}
+
+/* gedeelte tips om te beginnen aan je keuken */
+
+main section:nth-of-type(11) ul {
+  margin:0;
+  padding:0;
+  list-style-type:"";
+
+  
+  display:flex;
+  overflow-x:auto;
+  gap:1em;
+  
+  scroll-snap-type:x mandatory;
+  
+  overscroll-behavior-x:contain;
+}
+
+main section:nth-of-type(11) li {
+  scroll-snap-align:center;
+  
+  width:min(80%, 24em);
+  flex-shrink:0;
+  background: #E7B957;
+  
+  display:flex;
+  flex-direction:column;
+}
+
+main section:nth-of-type(11) li:nth-of-type(1){
+  background-color: #E7B957;
+}
+main section:nth-of-type(11) li:nth-of-type(2){
+  background-color: #E9C3B0;
+}
+
+main section:nth-of-type(11) li:nth-of-type(3){
+  background-color: #D5DCD4;
+}
+
+main section:nth-of-type(11) li img {
+  width: 100%;
+  order:-1;
+  height: 300px;
+  object-fit: cover;
+}
+
+main section:nth-of-type(11) li h3 {
+  margin:0;
+  padding:2rem 2rem 0 2rem;
+}
+
+main section:nth-of-type(11) li p {
+  margin:0;
+  margin-bottom:auto;
+  line-height: 1.7em;
+  padding:0 2rem 0 2rem;
+}
+
+main section:nth-of-type(11) li a {
+  padding:0 2rem 2rem 2rem;
+}
+main section:nth-of-type(11) {
+  margin-bottom: 4em;
+  font-family: "Ikea font";
+}
+
+main section:nth-of-type(11) a {
+background-color: #111;
+margin: 0;
+font-family: "Ikea font";
+font-weight: bold;
+text-decoration: none;
+color: white;
+  width: 70px; 
+  height: 70px; 
+  line-height: 70px; 
+  text-align: center; 
+  border-radius: 50%;
+  margin: 2em;
+}
+
+@media (width > 40em) {
+  li {
+    width:18em;
+  }
+}
 

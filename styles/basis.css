@@ -83,4 +83,74 @@ header section:nth-of-type(1) ul li:nth-of-type(1){
     color: white;
   }
   
+
+  /* bla bla */
+
+header section:nth-of-type(2) { 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 8px;
+align-items: center;
+}
+
+
+
+  header section:nth-of-type(2) ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+   gap: 1em;
+   margin-left: auto;
+   display: flex;
+   justify-content: flex-end;
+  }
+
+  header section:nth-of-type(2) ul img {
+    width: 2em;
+  }
+
+  header section:nth-of-type(2) > img:first-of-type{
+    width: 5em;
+  }
+
+
+  header section:nth-of-type(2){
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+
+@media (width < 60em){
+  header section:nth-of-type(2) form {
+    grid-column: span 6 / span 6;
+    grid-row-start: 2;
+  }
+}
+
+form {
+    display: flex;
+    align-items: center;
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+    border-radius: 5em;
+  }
   
+  
+form img {
+    width: 20px;
+    height: auto;
+  }
+  
+form input{
+    flex: 1;
+    padding: 5px;
+    border: none;
+    outline: none;
+    margin: 0 10px;
+    background: none;
+    font-size: 1em;
+  }
+

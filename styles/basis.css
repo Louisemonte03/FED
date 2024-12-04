@@ -103,6 +103,7 @@ margin-top: 10px;
     grid-column-start: 6;
     grid-row-start: 1;
     list-style: none;
+    display: flex;
 }
 
   header section:nth-of-type(2) ul img:hover{

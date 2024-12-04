@@ -99,7 +99,6 @@ main section:nth-of-type(1) img video{
 
 }
 
-
 @media (width > 40em) {
   main section:nth-of-type(1) {
     display:grid;
@@ -114,6 +113,9 @@ main section:nth-of-type(1) img video{
   }
 
 }
+
+
+
 
 /* swipe funtie met "nu bij IKEA"*/
 
@@ -172,6 +174,8 @@ main section:nth-of-type(2) {
   font-family: "Ikea font";
 }
 
+
+
 main section:nth-of-type(2) a {
 background-color: #111;
 margin: 0;
@@ -190,11 +194,14 @@ main section:nth-of-type(2) li:nth-of-type(2){
   background-color: #F5F5F5;
 }
 
-@media (width > 40em) {
-  li {
-    width:18em;
+@media (width > 60em) {
+  main section:nth-of-type(3) {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
+
+
 
 /* gedeelte met vrouw op de fiets */
 
@@ -206,7 +213,6 @@ padding-bottom: 4em;
 font-family: "Ikea font";
 
 }
-
 
 
 @media (width > 60em) {
@@ -254,12 +260,7 @@ font-family: "Ikea font";
 
 
 
-@media (width > 60em) {
-  main section:nth-of-type(3) {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-  }
-}
+
 
 
 
@@ -388,6 +389,9 @@ main section:nth-of-type(6) {
   grid-template-columns: 1fr;
 }
 
+
+
+
 @media (width > 40em) {
   main section:nth-of-type(6) {
     grid-template-columns: 1fr 1fr;
@@ -400,8 +404,6 @@ grid-column: 1/2;
     grid-row: 1;
   }
 }
-
-
 
 
 /* powerbank melding stukje div, Ik heb er een div van gemaakt omdat de section niet werkt. Als ik een section aan roep in mijn main dan verspringt mijn section 4 in de main  dus ik doe het nu even met divs*/

@@ -15,8 +15,18 @@
 /*********************/
 :root {
     /* startje */
-    --color-text:#111;
     --color-background:#eee;
+    --color-background:#f5f5f5;
+    --color-background:#484848;
+    --color-background:#e8e8e8;
+    --color-background:#FFDB01;
+    --color-background:#282828;
+    --color-background:#02853E;
+
+  
+    --color-text:#111;
+    --color-text:white;
+    --color-text:rgb(87, 87, 87);
     
 }
 
@@ -113,7 +123,9 @@ main section:nth-of-type(1) img video{
   }
 
 }
-
+main section:nth-of-type(1) h2{
+  margin: 0;
+}
 
 
 

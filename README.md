@@ -231,7 +231,7 @@ Uit de WCAG test kwamen belangrijke bevindingen. Uit de test scoorde IKEA ook go
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
+  1. gridgenerator.io
   2. bron 2
   3. ...
 

@@ -182,9 +182,6 @@ header nav div {
   margin-top: 1.5em;
 }
 
-
-
-
 header nav div input {
   width: 80%;
   padding: 0.8em;
@@ -250,7 +247,7 @@ margin-top: -2em;
   header section:nth-of-type(2) ul img:hover{
     background-color: #e8e8e8;
     border-radius: 5em;
-    padding: 10px;
+    box-shadow: 0 0 0 .5em #e8e8e8 ;
   }
 
 

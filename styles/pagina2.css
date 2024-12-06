@@ -303,6 +303,8 @@ main section:nth-of-type(3) img {
   }
 
 
+
+
 /* gedeelte met man in de keuken */
 
 main section:nth-of-type(7) article:nth-of-type(2) {
@@ -472,6 +474,34 @@ color: white;
 
 
 /* gedeelte met de tekst keuken instalatie */
+
+main section:nth-of-type(12) article {
+  background-color: #eeeeee;
+  line-height: 1.5;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+main section:nth-of-type(12) h4,
+main section:nth-of-type(12) p,
+main section:nth-of-type(12) a {
+  margin: 0;
+  padding: 0;
+  margin-left: 3rem;
+}
+
+main section:nth-of-type(12) p {
+  font-size: 14px;
+}
+
+main section:nth-of-type(12) a {
+  text-decoration: none;
+  color:black;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+
 
 
 main section:nth-of-type(13) article {

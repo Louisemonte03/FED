@@ -226,7 +226,7 @@ header nav ul:nth-of-type(1){
   font-weight: bold;
   line-height: 2em;
 cursor: pointer;
-padding-top: 3em;
+padding-top: 4em;
 }
 
 
@@ -247,11 +247,6 @@ margin-top: -2em;
 
 }
 
-
-
-
-
-
   header section:nth-of-type(2) ul img:hover{
     background-color: #e8e8e8;
     border-radius: 5em;
@@ -260,7 +255,7 @@ margin-top: -2em;
 
 
   header section:nth-of-type(2) > img:first-of-type{
-    width: 6em;
+    width: 5.5em;
     margin-left: 1em;
   }
 

@@ -549,12 +549,6 @@ main section:nth-of-type(10)  button {
 
 
 
-
-
-
-
-
-
 main section:nth-of-type(11) img {
   width: 45%;
   height: 100%;
@@ -592,4 +586,21 @@ border-bottom: solid 1px;
  border-color: rgb(195, 195, 195);
  font-weight: 900;
  font-size: 13px;
+}
+
+
+
+main div {
+  columns: 2;
+  margin-top: 5em;
+  gap: 10px;
+}
+
+
+main div img{
+  width: 100%;
+}
+
+main div img:nth-of-type(4) {
+  height:14em;
 }

@@ -478,32 +478,47 @@ color: white;
 
 main section:nth-of-type(12) article {
   background-color: #eeeeee;
-  line-height: 1.5;
+  line-height: 1.6;
   padding-bottom: 2em;
-  padding-top: 2em;
+  padding-top: 1em;
+  margin-bottom: 1px;
 }
 
 main section:nth-of-type(12) h4,
 main section:nth-of-type(12) p,
-main section:nth-of-type(12) a {
+main section:nth-of-type(12) a
+ {
+  margin: 0;
+  padding: 0;
+  margin-left: 3rem;
+}
+
+main section:nth-of-type(12) h4 {
+  font-size: 14px;
+}
+main section:nth-of-type(12) img{
+  width: 16px;
   margin: 0;
   padding: 0;
   margin-left: 3rem;
 }
 
 main section:nth-of-type(12) p {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 main section:nth-of-type(12) a {
   text-decoration: none;
   color:black;
-  font-size: 14px;
+  font-size: 12px;
   text-decoration: underline;
 }
 
 
 
+
+
+/* retour en recycleservice*/
 
 main section:nth-of-type(13) article {
   color: white;
@@ -522,32 +537,26 @@ main section:nth-of-type(13) a {
   padding: 1em;
   font-weight: bold;
   border-radius: 5em;
-  font-size: 12px;
+  font-size: 10px;
   margin: 3rem;
   padding-left: 2em;
   padding-right: 2em;
 }
 
 main section:nth-of-type(13) h3{
-  margin: 3rem;
+  margin-left: 3rem;
+  font-size: 15px;
 }
 main section:nth-of-type(13) p {
-  margin: 3rem;
-  font-size: 14px;
-  margin-top: -3em;
+  margin-left: 3rem;
+  font-size: 10px;
 }
 
 main section:nth-of-type(13) img {
   width: 100%;
 }
-
 main section:nth-of-type(13){
   margin-top: 3em;
-}
-
-
-main section:nth-last-of-type(14) h2 {
-margin-top: 0;
 }
 
 
@@ -654,3 +663,22 @@ main section:nth-of-type(17) img {
 main section:nth-of-type(17){
   margin-top: 3em;
 }
+
+main div {
+  columns: 2;
+  margin-top: 5em;
+  gap: 10px;
+}
+
+
+main div img{
+  width: 100%;
+}
+
+main div img:nth-of-type(4) {
+  height:14em;
+}
+
+
+
+

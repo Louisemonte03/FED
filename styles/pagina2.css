@@ -14,19 +14,17 @@
   /* CUSTOM PROPERTIES */
   /*********************/
   :root {
-      /* startje */
-      --color-background:#eee;
-      --color-background:#f5f5f5;
-      --color-background:#484848;
-      --color-background:#e8e8e8;
-      --color-background:#FFDB01;
-      --color-background:#282828;
-      --color-background:#02853E;
-  
-    
-      --color-text:#111;
-      --color-text:white;
-      --color-text:rgb(87, 87, 87);
+
+      --color-background-pag2-pink:#E9C3B0;
+      --color-background-pag2-darkyellow:#E7B956;
+      --color-background-pag2-lightgreen:#D8DED7;
+      --color-background-pag2-lightbrown:#DFBC9C;
+      --color-background-pag2-lightyellow:#F3DAA5;
+
+      --color-background-white:#FFFFFF;
+      --color-background-black:#000000;
+      --color-background-darkgray:#4D4D4D;
+      --color-background-lightgray:#F5F4F4;
       
   }
   

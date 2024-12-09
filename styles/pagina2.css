@@ -605,33 +605,52 @@ main section:nth-of-type(16) form input{
 
 
 
-main section:nth-of-type(17){
+
+main section:nth-of-type(17) {
+  display: flex;
   gap: 1em;
-  margin-top: 2em;
-display: flex;
+  overflow-x: auto;
+
 }
 
-
 main section:nth-of-type(17) article {
-  background-color: #f1f0f0;
+  color: white;
+  background-color: #02853E;
+padding-top: 0.5em;
+padding-bottom: 4em;
 font-family: "Ikea font";
-
-justify-content: left;
-width: 400em;
+width: min(90%, 20em);
+flex-shrink: 0; /* doet niet shrinken omdat het 0 is */
 }
 
 
 main section:nth-of-type(17) a {
   text-decoration: none;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
   padding: 1em;
   font-weight: bold;
   border-radius: 5em;
   font-size: 12px;
-
+  margin: 3rem;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
+main section:nth-of-type(17) h3{
+  margin: 3rem;
+  margin-top: 1em;
+}
 main section:nth-of-type(17) p {
+  margin: 3rem;
   font-size: 14px;
+  margin-top: -3em;
+}
+
+main section:nth-of-type(17) img {
+  width: 100%;
+}
+
+main section:nth-of-type(17){
+  margin-top: 3em;
 }

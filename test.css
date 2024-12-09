@@ -11,66 +11,138 @@
     font-weight: 400;
   }
   
-
-
-  main section:nth-of-type(1) {
-    display: flex;
-    gap: 1em;
-    overflow-x: auto;
-
+  body{
+    font-family:"Ikea font";
   }
 
-main section:nth-of-type(1) article {
-    color: white;
-    background-color: #02853E;
-  padding-top: 0.5em;
-  padding-bottom: 4em;
-  font-family: "Ikea font";
-  width: min(90%, 20em);
-  flex-shrink: 0; /* doet niet shrinken omdat het 0 is */
+
+
+
+  footer {
+    margin: 0;
+    padding: 0;
+    font-family: "Ikea font";
+    background-color: #F5F5F5;
+    padding-bottom: 10em;
   }
+
+
+  footer article{
+    margin: 1em;
+  }
+
+  footer details{
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+
+
+footer h4 { font-size: 13px;
+ }
+
+ footer p {
+  color: rgb(55, 55, 55);
+  font-size: 11px;
+  margin-right: 2em;
+}
+
+footer a{ 
+color: #000000;
+text-decoration: none;
+font-size: 10px; 
+padding: 1em;
+border-radius: 3em;
+padding-left: 2em;
+padding-right: 2em;
+}
+
+
+footer a:nth-of-type(1)
+{
+  text-decoration: underline;
+}
+
+footer a:nth-of-type(2)
+{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+footer ul {
+  margin-top: -0.3em;
+}
+
+footer li:hover{
+  text-decoration: underline;
+}
+
+
+footer li {
+  list-style-type: none;
+  font-size: 11.5px;
+  line-height: 3.3em;
+  color: rgb(55, 55, 55);
+  cursor: pointer;
+  margin-left: -3.5em;
+}
+  details summary{
+ line-height: 6em;
+ font-weight: 700;
+ font-size: 12px;
+ list-style-type: none;
+ cursor: pointer;
+
+  }
+footer details:nth-of-type(1){
+  padding-top: 1em;
+}
+
+footer summary{
+  border-top: 1px solid #d3d3d3;
+}
+footer summary:nth-of-type(4){
+  border-bottom: 1px solid #d3d3d3;
+}
+
+footer section img{
+  width: 40px;
+}
+
+
+footer section article:nth-of-type(1) ul {
+  display: flex;
+  gap: 1em;
+}
+
+footer section article:nth-of-type(2) ul {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+footer section article:nth-of-type(2) li {
   
-  
-  main section:nth-of-type(1) a {
-    text-decoration: none;
-    color: black;
-    background-color: white;
-    padding: 1em;
-    font-weight: bold;
-    border-radius: 5em;
-    font-size: 12px;
-    margin: 3rem;
-    padding-left: 2em;
-    padding-right: 2em;
-  }
-  
-  main section:nth-of-type(1) h3{
-    margin: 3rem;
-    margin-top: 1em;
-  }
-  main section:nth-of-type(1) p {
-    margin: 3rem;
-    font-size: 14px;
-    margin-top: -3em;
-  }
-  
-  main section:nth-of-type(1) img {
-    width: 100%;
-  }
-  
-  main section:nth-of-type(1){
-    margin-top: 3em;
-  }
+}
 
 
 
-   /* met grid generator */
+footer section {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 
+footer section article:nth-of-type(2){
+  grid-row-start: 2;
+}
+footer section article:nth-of-type(3){
+  grid-row-start: 3;
+}
 
-
-
-
-   
-
-  
+footer section article ul img{
+  border-radius: 2px;
+}

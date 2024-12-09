@@ -78,8 +78,8 @@ h1 {
 
 @media (min-width: 786px) {
   h1 h2 {
-    /* font-size: 36px;   */
-    /* hier word de letterype groter als je het scherm open trekt*/
+    font-size: 36px;  
+   
   }
 }
 
@@ -547,78 +547,20 @@ main section:nth-of-type(10)  button {
   }
 
 
-  /* gedeelte van footer */
-
-  footer {
-    margin: 0;
-    padding: 0;
-    font-family: "Ikea font";
-    background-color: #F5F5F5;
-    padding-bottom: 3em;
-  }
 
 
-footer h4 { font-size: 16px;
- }
 
 
-footer button {
-  font-size: 12px;
-    padding: 1.2em;
-    padding-left: 2em;
-    padding-right: 2em;
-    background-color: black;
-    color: white;
-    margin-bottom: 2em;
-    border-radius: 2em;
-font-weight: bold;
-}
 
-footer button:hover {
-  background-color: #282828;
-}
 
-footer h5 {font-size: 15px;
-
-} 
-
-footer p {
-  color: rgb(55, 55, 55);
-  font-size: 14px;
-  margin-right: 2em;
-}
-
-footer li {
-  list-style-type: none;
-  font-size: 13px;
-  line-height: 3em;
-  color: rgb(55, 55, 55);
-  cursor: pointer;
-
-}
-  details summary{
- line-height: 6em;
- font-weight: 700;
- font-size: 14px;
- list-style-type: none;
- cursor: pointer;
-  }
-footer details:nth-of-type(1){
-  padding-top: 1em;
-}
-
-footer summary{
-  border-top: 1px solid #d3d3d3;
-}
-footer summary:nth-of-type(4){
-  border-bottom: 1px solid #d3d3d3;
-}
 
 
 main section:nth-of-type(11) img {
   width: 45%;
   height: 100%;
 }
+
+
 
 
 main section:nth-of-type(11) img:nth-of-type(2) {

@@ -418,3 +418,168 @@ form input{
   }
 }
 
+
+
+
+
+/* footer gedeelte hier onder */
+
+footer {
+  margin: 0;
+  padding: 0;
+  font-family: "Ikea font";
+background-color: rgb(234, 234, 234);
+  padding-bottom: 10em;
+}
+
+footer article{
+  margin: 1em;
+}
+
+footer details{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+footer h4 { font-size: 13px;
+}
+
+
+footer p {
+ color: black;
+  font-size: 11px;
+  margin: 0;
+}
+
+section article a:first-of-type{
+  color: black;
+  font-size: 12px;
+}
+
+
+section article a:nth-of-type(2) {
+  background-color: black; 
+  color: white; 
+  font-weight: bold; 
+  padding: 10px 20px; 
+  text-decoration: none; 
+  display: inline-block;
+  border-radius: 30px; 
+  text-align: center; 
+  width: fit-content;
+  font-size: 11px;
+  margin-top: 1em;
+}
+
+
+
+footer ul {
+margin-top: -0.3em;
+}
+footer section:nth-of-type(1) article {
+display: flex;
+flex-direction: column;
+}
+
+footer li {
+list-style-type: none;
+font-size: 11.5px;
+line-height: 3.3em;
+color: rgb(55, 55, 55);
+cursor: pointer;
+margin-left: -3.5em;
+}
+
+details summary{
+line-height: 6em;
+font-weight: 700;
+font-size: 12px;
+list-style-type: none;
+cursor: pointer;
+
+ }
+
+ footer summary{
+  border-top: 1px solid #d3d3d3;
+}
+footer summary:nth-of-type(4){
+  border-bottom: 1px solid #d3d3d3;
+}
+
+footer details:nth-of-type(1){
+  padding-top: 1em;
+}
+
+footer section:nth-of-type(3) article:nth-of-type(1) ul {
+  display: flex;
+  list-style: none; 
+  margin: 0; 
+  gap: 50px; 
+}
+
+
+
+footer section:nth-of-type(3) article:nth-of-type(2) ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style: none; 
+  margin: 0; 
+  gap: 70px; 
+  row-gap: 0;
+}
+
+
+
+
+footer section:nth-of-type(3) article:nth-of-type(2) img {
+width: 40px;
+}
+
+
+
+footer section:nth-of-type(3) article:nth-of-type(3) a {
+  text-decoration: none;
+  font-size: 12px;
+  align-items: center;
+  border: solid 1px;
+display: flex;
+gap: 10px;
+width: fit-content;
+padding: 10px 20px;
+border-radius: 2em;
+font-weight: bold;
+}
+
+
+footer section:nth-of-type(3) article:nth-of-type(3) img {
+  width: 12px;
+} 
+
+
+
+
+footer section:nth-of-type(4) article {
+  text-align: center;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+
+
+  footer section:nth-of-type(4) ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    list-style: none;
+  column-gap: 50px;
+  font-size: 10px;
+  }
+
+
+
+
+  footer section:nth-of-type(4) a {
+text-decoration: none;
+  }

@@ -19,7 +19,7 @@
     margin: 0;
     padding: 0;
     font-family: "Ikea font";
-   background-color: var(--color-background-lightgray);
+  background-color: rgb(234, 234, 234);
     padding-bottom: 10em;
   }
 
@@ -37,13 +37,14 @@
  
 
   footer p {
-    color: var(--color-text-darkgray);
+   color: black;
     font-size: 11px;
-    margin-right: 2em;
+    margin: 0;
   }
 
   section article a:first-of-type{
     color: black;
+    font-size: 12px;
   }
 
 
@@ -57,15 +58,18 @@
     border-radius: 30px; 
     text-align: center; 
     width: fit-content;
+    font-size: 11px;
+    margin-top: 1em;
   }
 
+
+  
 footer ul {
   margin-top: -0.3em;
 }
 footer section:nth-of-type(1) article {
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
 footer li {
@@ -97,9 +101,76 @@ details summary{
     padding-top: 1em;
   }
 
-  footer section:nth-of-type(3) article:nth-of-type(1){
+  footer section:nth-of-type(3) article:nth-of-type(1) ul {
     display: flex;
     list-style: none; 
     margin: 0; 
-    gap: 10px; 
+    gap: 50px; 
   }
+
+
+
+  footer section:nth-of-type(3) article:nth-of-type(2) ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none; 
+    margin: 0; 
+    gap: 70px; 
+    row-gap: 0;
+  }
+
+  
+
+
+  footer section:nth-of-type(3) article:nth-of-type(2) img {
+ width: 40px;
+  }
+
+
+
+  footer section:nth-of-type(3) article:nth-of-type(3) a {
+    text-decoration: none;
+    font-size: 12px;
+    align-items: center;
+    border: solid 1px;
+display: flex;
+gap: 10px;
+width: fit-content;
+padding: 10px 20px;
+border-radius: 2em;
+font-weight: bold;
+  }
+
+
+  footer section:nth-of-type(3) article:nth-of-type(3) img {
+    width: 12px;
+  } 
+
+
+
+
+  footer section:nth-of-type(4) article {
+    text-align: center;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+
+
+    footer section:nth-of-type(4) ul {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      list-style: none;
+    column-gap: 50px;
+    font-size: 10px;
+    }
+
+
+
+
+    footer section:nth-of-type(4) a {
+text-decoration: none;
+    }

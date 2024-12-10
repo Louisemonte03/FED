@@ -90,8 +90,9 @@ Uit de WCAG test kwamen belangrijke bevindingen. Uit de test scoorde IKEA ook go
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+In week 2 was ik begonnen met het opbouwen van de CSS-pagina's. Ik was goed op weg, totdat ik tegen een paar obstakels aanliep. Ik had moeite met het maken van mijn footer en ook met het gebruik van Grid. Elke keer als ik dacht dat het lukte, kreeg ik het niet voor elkaar. Met mijn footer ben ik nu nog steeds aan het experimenteren.
 
+Desondanks heb ik in week 2 mijn focus gelegd op het stijlen van de pagina. Ik was bezig met het instellen van de basiselementen, zoals het kiezen van geschikte fonts en kleuren, en het toevoegen van marges en paddings om de lay-out te verfraaien. Voor de positionering van de elementen heb ik gebruik gemaakt van Flexbox en Grid om een responsieve en goed gestructureerde lay-out te creëren. Maar met Grid had ik niet altijd het gewenste resultaat.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -106,10 +107,8 @@ Uit de WCAG test kwamen belangrijke bevindingen. Uit de test scoorde IKEA ook go
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Het maken van een afbeelding met daar onder een kleur er tegen aan aan de onderkant. 
+  - Ook hoe je het beste de scroll functie kan gebruiken zodat hij niet terug swipe naar de vorige pargina
 
 </details>
 
@@ -123,7 +122,7 @@ Uit de WCAG test kwamen belangrijke bevindingen. Uit de test scoorde IKEA ook go
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Deze week, bij de derde stand van zaken, merkte ik dat ik een beetje achterliep en dat ik toch nog wat gas erbij moest gooien. In week 3 heb ik me vooral gefocust op het verbeteren van de website. Ik heb verschillende componenten toegevoegd, zoals knoppen en formuliervelden. Daarnaast ben ik aan de slag gegaan met hover- en focus-effecten. Ook heb ik gewerkt aan de positionering van elementen door gebruik te maken van Flexbox en Grid, waarbij ik mijn kennis verder heb verdiept. Hetzelfde geldt voor de media queries die ik heb toegevoegd aan mijn CSS.
 
 
   ### Agenda voor meeting
@@ -138,11 +137,10 @@ Uit de WCAG test kwamen belangrijke bevindingen. Uit de test scoorde IKEA ook go
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
+ 
+  - het gebruiken van de grid voor de glazen text. Zodat de afbeelding naast de text komt te staan
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+
 
 </details>
 
@@ -170,7 +168,7 @@ Uit de WCAG test kwamen belangrijke bevindingen. Uit de test scoorde IKEA ook go
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+In deze week heb ik de website geschikt gemaakt voor mobiele apparaten. Ik heb media queries toegevoegd, zodat de website goed past op verschillende schermen, zoals op een desktop, tablet of smartphone. Voor de kleinere schermen heb ik een hamburger-menu gemaakt. dat heb ik samen met Ali gedaan. Die heeft mij daar bij geholpen. Ook deze week ben ik weer druk aan de slag geweest met het maken van een grid van de afbeeldingen. En ik had heel veel moeite met het maken van een hamburger menu in het begin van de week. 
 
 
   ### Agenda voor meeting
@@ -186,10 +184,9 @@ Uit de WCAG test kwamen belangrijke bevindingen. Uit de test scoorde IKEA ook go
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - de Nieuwe hamburger menu
+  - object position gebruiken om in mijn grid een bepaald gedeelte van mijn afbeelding te hebben 
+  - en een schaduw toevoegen zodat ik een hover effect heb op mijn icoontjes
 
 </details>
 
@@ -207,13 +204,12 @@ Uit de WCAG test kwamen belangrijke bevindingen. Uit de test scoorde IKEA ook go
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb over het algmeen geleerd
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>

@@ -4,29 +4,28 @@
 *, *::after, *::before {
     box-sizing:border-box;  
   }
-  
-  
-
-  
-  
-  
+    
   /*********************/
   /* CUSTOM PROPERTIES */
   /*********************/
   :root {
+    --color-background-pag2-pink:#E9C3B0;
+    --color-background-pag2-darkyellow:#E7B956;
+    --color-background-pag2-lightgreen:#D8DED7;
+    --color-background-pag2-lightbrown:#DFBC9C;
+    --color-background-pag2-lightyellow:#F3DAA5;
 
-      --color-background-pag2-pink:#E9C3B0;
-      --color-background-pag2-darkyellow:#E7B956;
-      --color-background-pag2-lightgreen:#D8DED7;
-      --color-background-pag2-lightbrown:#DFBC9C;
-      --color-background-pag2-lightyellow:#F3DAA5;
+    --color-background-yellow:#FFDB05;
+    --color-background-red:#CB500A;
+    --color-background-blue:#057BC0;
+    --color-background-green:#06853E;
 
-      --color-background-white:#FFFFFF;
-      --color-background-black:#000000;
-      --color-background-darkgray:#4D4D4D;
-      --color-background-lightgray:#F5F4F4;
+    --color-background-white:#FFFFFF;
+    --color-background-black:#000000;
+    --color-background-darkgray:#4D4D4D;
+    --color-background-lightgray:#F5F4F4;
 
-      --color-background-sb:#F5F4F4;
+    --color-background-sb:#F5F4F4;
 --color-background-hover-sb-btn:#DFDFDF;
 --color-background-hover-link: #F5F4F4;
 
@@ -34,18 +33,16 @@
 --color-text-black:#000000;
 --color-text-white:#FFFFFF;
 
---color-background-yellow:#FFDB05;
---color-background-red:#CB500A;
---color-background-blue:#057BC0;
---color-background-green:#06853E;
-
 --font-size-normaal:0.7em;
 --font-size-h2:0.9em;
 --font-size-h3:0.9em;
 --font-size-h1:1.2em;
 --font-size-links:10px;
-      
   }
+
+
+
+
   
   @font-face {
     font-family: "ikea font";

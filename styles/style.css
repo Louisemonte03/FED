@@ -16,6 +16,12 @@
 :root {
     /* startje */
     
+    --color-background-pag2-pink:#E9C3B0;
+    --color-background-pag2-darkyellow:#E7B956;
+    --color-background-pag2-lightgreen:#D8DED7;
+    --color-background-pag2-lightbrown:#DFBC9C;
+    --color-background-pag2-lightyellow:#F3DAA5;
+
     --color-background-yellow:#FFDB05;
     --color-background-red:#CB500A;
     --color-background-blue:#057BC0;
@@ -39,6 +45,7 @@
 --font-size-h3:0.9em;
 --font-size-h1:1.2em;
 --font-size-links:10px;
+
     
 }
 

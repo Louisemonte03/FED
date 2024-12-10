@@ -132,7 +132,9 @@ main section:nth-of-type(1) img video{
   }
 
 }
-
+main section:nth-of-type(1) p {
+  line-height: 18px
+}
 
 
 /* swipe funtie met "nu bij IKEA"*/
@@ -142,7 +144,7 @@ main section:nth-of-type(2) ul {
   padding:0;
   list-style-type:"";
   margin-top: 2em;
-  
+
   display:flex;
   overflow-x:auto;
   gap:1em;
@@ -222,16 +224,12 @@ main section:nth-of-type(2) li:nth-of-type(4){
 }
 
 
-@media (width > 60em) {
-  main section:nth-of-type(3) {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-
 
 /* gedeelte met vrouw op de fiets */
+
+main section:nth-of-type(3){
+  margin-top: -6em;
+}
 
 main section:nth-of-type(3) article:nth-of-type(2) {
 color: var(--color-text-white);
@@ -249,21 +247,6 @@ font-family: "Ikea font";
     grid-template-columns: 1fr 1fr;
   }
 }
-
-
-
-
-/* gedeelte met vrouw op de fiets */
-
-main section:nth-of-type(3) article:nth-of-type(2) {
-color: var(--color-text-white);
-background-color: var(--color-background-green);
-padding-top: 0.5em;
-padding-bottom: 4em;
-font-family: "Ikea font";
-
-}
-
 
 
 main section:nth-of-type(3) a {
@@ -287,11 +270,12 @@ main section:nth-of-type(3) p {
   margin-top: -3em;
 }
 
+
 /* section met de ruimtes scroll functie */
 
 
 main section:nth-of-type(4) img {
-  width:16em; 
+  width:12em; 
 }
 
 main section:nth-of-type(4) {
@@ -306,7 +290,7 @@ main section:nth-of-type(4) {
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 12px;
+  font-size: var(--font-size-links);
     background-color: var(--color-background-lightgray);
  color: var(--color-text-black);
     text-decoration: none;
@@ -328,7 +312,7 @@ main section:nth-of-type(4) article {
 /* section met dit mag je niet missen */
 
 main section:nth-of-type(5) img {
-  width:16em; 
+  width:12em; 
 }
 
 main section:nth-of-type(5) {
@@ -343,7 +327,7 @@ main section:nth-of-type(5) {
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 12px;
+   font-size: var(--font-size-links);
     background-color: var(--color-background-lightgray);
    color: var(--color-text-black);
     text-decoration: none;
@@ -372,18 +356,16 @@ main section:nth-of-type(5) {
 
 main section:nth-of-type(6) p {
   color: rgb(85, 85, 85);
-  font-size: 14px;
-  line-height: 22px;
+font-size: var(--font-size-normaal);
+  line-height: 18px;
 }
 
 main section:nth-of-type(6) ul{
   color: rgb(85, 85, 85);
-  font-size: 14px;
+font-size: var(--font-size-normaal);
   line-height: 30px;
 }
-main section:nth-of-type(6){
-  margin-top: 3em;
-}
+
 
 main section:nth-of-type(6) {
   display: grid;
@@ -420,21 +402,22 @@ color: var(--color-text-white);
 
 
 main section:nth-of-type(7) a {
-  font-size: 12px;
+font-size: var(--font-size-links);
 background-color: var(--color-background-lightgray);
   color: black;
   text-decoration: none;
   padding: 1em;
   padding-left: 2em;
   padding-right: 2em;
+  margin-left: 1em;
   font-weight: 600;
   border-radius: 40em;}
 
 
 main section:nth-of-type(7) li {
   color: #eee;
-  font-size: 15px;
-  margin: 1em;
+font-size: var(--font-size-normaal);
+  margin: 2em;
   padding-bottom: 2em;
 
 }
@@ -482,9 +465,9 @@ main section:nth-of-type(9) a {
   top: 80%;
   left:50%;
   transform: translate(-50%, -50%);
-  font-size: 12px;
-background-color: var(--color-background-lightgray);
+font-size: var(--font-size-links);
   color: black;
+  background-color: rgb(251, 251, 251);
   text-decoration: none;
   padding: 1em;
   padding-left: 2em;
@@ -510,27 +493,27 @@ main section:nth-of-type(10) {
   overflow-x: auto;
   scroll-snap-type: x mandatory; /*zorgt er voor dat de scroll functie blijft op de pagina en niet naar buiten trekt (gevraagt aan chat)*/
   gap: 15px;
-  margin-bottom: 1em;
+  margin-top: 1em;
   }
 
-main section:nth-of-type(10)  button {
-    font-size: 12px;
+main section:nth-of-type(10)  a {
+    font-size: var(--font-size-links);
+    align-items: center;
+    display: flex;
    background-color: var(--color-background-lightgray);
 color: var(--color-text-black);
     text-decoration: none;
-    padding: 0.5em;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
     font-weight: 600;
-    border-radius: 40em;
+    border-radius: 5em;
     border: none;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    cursor: pointer;
-  
+    
   }
-  main section:nth-of-type(10) button:hover {
-    background-color: var(--hover);
+  main section:nth-of-type(10) a:hover {
+    background-color: var(--color-background-hover-sb-btn);
   }
 
 
@@ -551,7 +534,7 @@ main section:nth-of-type(11) img:nth-of-type(2) {
 
 main section:nth-of-type(11){
   display: flex;
-  gap: 10px;
+  gap: 15x;
 
 flex-flow: row wrap;
 justify-content: flex-start;
@@ -590,3 +573,5 @@ main div img{
 main div img:nth-of-type(4) {
   height:14em;
 }
+
+

@@ -76,7 +76,7 @@ body{
 
 main {
 margin-inline: auto;
-width:min( 70em, 100% - 2em );
+width:min( 90em, 100% - 4em );
 }
 
 main h2{
@@ -95,24 +95,6 @@ main video:nth-of-type(1){
 
 
 
-h1 {
-  padding-top: 1em;
-  font-size:clamp(1.5em, 5vw, 2.5em); /* sanne heeft me uit gelegd is dat hij niet groter */
-}
-
-@media (min-width: 786px) {
-  h1 h2 {
-    font-size: 36px;  
-   
-  }
-}
-
-
-
-h2 {
-  font-size:clamp(0.7em, 3.5vw, 1.5em); 
-  margin-top: 2em;
-}
 
 
 

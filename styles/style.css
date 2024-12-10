@@ -76,7 +76,7 @@ body{
 
 main {
 margin-inline: auto;
-width:min( 90em, 100% - 2em );
+width:min( 70em, 100% - 2em );
 }
 
 main h2{

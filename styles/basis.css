@@ -240,6 +240,51 @@ margin-top: 15px;
 }
 
 
+header section:nth-of-type(3) {
+  display: none;
+  
+}
+
+
+@media (min-width: 768px) {
+  header section:nth-of-type(3) {
+    display: block; /* Zorg dat de sectie zichtbaar wordt */
+  }
+}
+
+header section:nth-of-type(3)  ul {
+  display: flex;
+  gap: 20px; 
+  overflow-x: scroll; 
+  list-style: none; 
+  padding: 0;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-top: 4em;
+}
+
+header section:nth-of-type(3)  ul li {
+flex: 0 0 auto;
+text-align: center;
+}
+
+header section:nth-of-type(3) ul li img {
+width: 90px; 
+height: auto; 
+display: block; 
+margin: 0 auto; 
+}
+
+header section:nth-of-type(3) ul li p {
+margin-top: 0.5em;
+font-size: 0.5em;
+color: #333;
+}
+
+
+
+
+/* gedeelte van de menu button */
 
 
 header {
@@ -377,7 +422,8 @@ header nav li:hover{
 
 @media (min-width: 60em) {
   header section:nth-of-type(2) form {
-    grid-column: 2 / 6; }
+    grid-column: 2 / 4; }
+
 }
 
 

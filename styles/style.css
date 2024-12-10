@@ -75,7 +75,8 @@ body{
 /* main stuk hier beneden */
 
 main {
-margin: 1em 1em;
+margin-inline: auto;
+width:min( 90em, 100% - 2em );
 }
 
 main h2{
@@ -90,8 +91,8 @@ main img:nth-of-type(1){
 main video:nth-of-type(1){
   width: 100%;
   height: auto;
-
 }
+
 
 
 h1 {
@@ -565,20 +566,27 @@ font-size: var(--font-size-normaal);
 }
 
 
-
 main div {
   columns: 2;
   margin-top: 5em;
   gap: 10px;
 }
 
-
 main div img{
   width: 100%;
+  height: auto;
 }
 
-main div img:nth-of-type(4) {
+
+ main div img:nth-of-type(4) {
   height:14em;
+  object-fit: cover;
 }
 
 
+
+@media (min-width: 768px) {
+  main div {
+      columns: 3;
+  }
+}

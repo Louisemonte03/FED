@@ -16,24 +16,3 @@
   }
 
   
- div {
-    columns: 2;
-    margin-top: 5em;
-    gap: 10px;
-  }
-  
-  div img{
-    width: 100%;
-  }
-
-
-   div img:nth-of-type(4) {
-    height:14em;
-  }
-  
-  
-  @media (min-width: 768px) {
-    div {
-        columns: 3;
-    }
-}

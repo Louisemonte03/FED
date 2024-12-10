@@ -53,6 +53,11 @@
 
 
 
+
+
+
+  
+
   body{
     margin: 0;
     padding: 0;
@@ -426,10 +431,9 @@ form input{
 
 footer {
   margin: 0;
-  padding: 0;
+  padding-top: 2em;
   font-family: "Ikea font";
-background-color: rgb(234, 234, 234);
-  padding-bottom: 10em;
+background-color: var(--color-background-lightgray);
 }
 
 footer article{
@@ -446,7 +450,7 @@ footer h4 { font-size: 13px;
 
 
 footer p {
- color: black;
+color: var(--color-text-black);
   font-size: 11px;
   margin: 0;
 }
@@ -458,7 +462,7 @@ section article a:first-of-type{
 
 
 section article a:nth-of-type(2) {
-  background-color: black; 
+background-color: var(--color-background-black);
   color: white; 
   font-weight: bold; 
   padding: 10px 20px; 
@@ -485,7 +489,7 @@ footer li {
 list-style-type: none;
 font-size: 11.5px;
 line-height: 3.3em;
-color: rgb(55, 55, 55);
+color: var(--color-text-darkgray);
 cursor: pointer;
 margin-left: -3.5em;
 }
@@ -533,14 +537,15 @@ footer section:nth-of-type(3) article:nth-of-type(2) ul {
 
 
 footer section:nth-of-type(3) article:nth-of-type(2) img {
-width: 40px;
+width: 45px;
+border-radius: 0.3em;
 }
 
 
 
 footer section:nth-of-type(3) article:nth-of-type(3) a {
   text-decoration: none;
-  font-size: 12px;
+font-size: var(--font-size-normaal);
   align-items: center;
   border: solid 1px;
 display: flex;
@@ -553,7 +558,7 @@ font-weight: bold;
 
 
 footer section:nth-of-type(3) article:nth-of-type(3) img {
-  width: 12px;
+  width: 15px;
 } 
 
 
@@ -563,8 +568,6 @@ footer section:nth-of-type(4) article {
   text-align: center;
   justify-content: flex-start;
   list-style: none;
-  padding: 0;
-  margin: 0;
   }
 
 
@@ -573,8 +576,7 @@ footer section:nth-of-type(4) article {
     justify-content: flex-start;
     flex-wrap: wrap;
     list-style: none;
-  column-gap: 50px;
-  font-size: 10px;
+  column-gap: 60px;
   }
 
 

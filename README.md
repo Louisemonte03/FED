@@ -91,17 +91,17 @@ Uit de WCAG test kwamen belangrijke bevindingen. Uit de test scoorde IKEA ook go
 
   ### Stand van zaken
 In week 2 was ik begonnen met het opbouwen van de CSS-pagina's. Ik was goed op weg, totdat ik tegen een paar obstakels aanliep. Ik had moeite met het maken van mijn footer en ook met het gebruik van Grid. Elke keer als ik dacht dat het lukte, kreeg ik het niet voor elkaar. Met mijn footer ben ik nu nog steeds aan het experimenteren.
+ <img src="readme-images/grid_readme" width="375px" alt="grid afbeelding">
 
-Desondanks heb ik in week 2 mijn focus gelegd op het stijlen van de pagina. Ik was bezig met het instellen van de basiselementen, zoals het kiezen van geschikte fonts en kleuren, en het toevoegen van marges en paddings om de lay-out te verfraaien. Voor de positionering van de elementen heb ik gebruik gemaakt van Flexbox en Grid om een responsieve en goed gestructureerde lay-out te creëren. Maar met Grid had ik niet altijd het gewenste resultaat.
+Desondanks heb ik in week 2 mijn focus gelegd op het stijlen van de pagina. Ik was bezig met het instellen van de basiselementen, zoals het kiezen van geschikte fonts en kleuren, en het toevoegen van marges en paddings om de lay-out te verfraaien. Voor de positionering van de elementen heb ik gebruik gemaakt van Flexbox en Grid om een responsieve en goed gestructureerde lay-out te creëren. Maar met Grid had ik niet altijd het gewenste resultaat. Zoals ik al eerder aangaf had ik last met het leren van grid. Ik vind dat lastiger dan flexbox
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  |             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+ 1. Hoe krijg ik de video en de afbeelding naast elkaar in een grid 
+ 2. hoe zorg ik er voor dat deze carousel functie swipt?
+ 3. hoe maar ik zo;n card met kleur aan de onderkant ?
+ 4. hoe kan mijn lettertype groter worden als ik het scherm groter maak 
 
 
   ### Verslag van meeting
@@ -109,6 +109,9 @@ Desondanks heb ik in week 2 mijn focus gelegd op het stijlen van de pagina. Ik w
 
   - Het maken van een afbeelding met daar onder een kleur er tegen aan aan de onderkant. 
   - Ook hoe je het beste de scroll functie kan gebruiken zodat hij niet terug swipe naar de vorige pargina
+  - meer te weten gekomen over het gebruiken van grid
+  - het mee schalen van afbeeldingen en font sizes
+   <img src="readme-images/meeschalen" width="375px" alt="schaal afbeelding">
 
 </details>
 
@@ -128,17 +131,17 @@ Deze week, bij de derde stand van zaken, merkte ik dat ik een beetje achterliep 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
 
+ 1. Hoe krijg ik deze text boven op een afbeelding ?
+ 2. hoe krijg ik deze afbeelding naar de rechter kant van mijn scherm
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
  
-  - het gebruiken van de grid voor de glazen text. Zodat de afbeelding naast de text komt te staan
+  - Meer informatie te weten gekomen over grid
+  - meer gebruik gemaakt van @media queries
+ <img src="readme-images/mediaqueries" width="375px" alt="media afbeelding">
+
 
 
 
@@ -154,12 +157,9 @@ Deze week, bij de derde stand van zaken, merkte ik dat ik een beetje achterliep 
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+Over het algemeen wat er is verbeterd is dat de screen reader wel nu beter de headings voorleest. ook met de aria lables ondersteunt het meer. Met de muis en toetsenboard kan ik er makkelijk door heen.
 
 </details>
-
-
-
 
 
 ## Voortgang 3 (week 4)
@@ -174,12 +174,8 @@ In deze week heb ik de website geschikt gemaakt voor mobiele apparaten. Ik heb m
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+ 1. Het opstellen van een hamburger menu want dat werkt niet elke keer
+ 2. het maken van een pintrest grid
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -187,6 +183,7 @@ In deze week heb ik de website geschikt gemaakt voor mobiele apparaten. Ik heb m
   - de Nieuwe hamburger menu
   - object position gebruiken om in mijn grid een bepaald gedeelte van mijn afbeelding te hebben 
   - en een schaduw toevoegen zodat ik een hover effect heb op mijn icoontjes
+
 
 </details>
 
@@ -200,20 +197,36 @@ In deze week heb ik de website geschikt gemaakt voor mobiele apparaten. Ik heb m
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/ikeawebsite_louisepng.png" width="375px" alt="uitomst opdracht 1">
+    <img src="readme-images/pag_2.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Ik heb over het algmeen geleerd
+Ik heb geleerd:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+1. ik heb geleerd hoe je een header opstelt met menu, grid, @media queries, svg'ts en de marges
+2. ik heb geleerd hoe je kan werken met grid en hoe eenvoudiger dat is tegenover flexbox
+3. ik heb geleerd hoe dingen kunnen mee schalen als je iets groter maakt
+4. ik heb geleerd hoe je een website responsive kan maken 
+5. ik heb geleerd hoe je roots kan gebruiken
+6. hoe handig inspecteren is
 
+ <img src="readme-images/gridpag1.png" width="375px" alt="top">
+ <img src="readme-images/gridpag2.png" width="375px" alt="top">
+ <img src="readme-images/svgopimg.png" width="375px" alt="top">
+ <img src="readme-images/articles.png" width="375px" alt="top">
+ <img src="readme-images/headermetvideoenimg.png" width="375px" alt="top">
+ <img src="readme-images/header.png" width="375px" alt="top">
 
   ### Dit was lastig/Is niet gelukt:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
-</details>
 
+ <img src="readme-images/nietlukken.png" width="375px" alt="helaas">
+  Er zijn een paar dingen niet gelukt en dat zijn:
+  1. de footer dat als hij groter word dat dan de text naast elkaar komt
+  2. de header waarbij als je op de zoek balk komt dat er een menu tervoorschijn komt 
+  3. en dark mode is niet goed gelukt 
+</details>
 
 
 
@@ -228,7 +241,8 @@ In deze week heb ik de website geschikt gemaakt voor mobiele apparaten. Ik heb m
   Nb. Vermeld de bronnen ook in je code.
 
   1. gridgenerator.io
-  2. bron 2
-  3. ...
+  2. Chat GPT
+  3. Sanne, kim en Ali
+  4. 
 
 </details>

@@ -15,5 +15,3 @@ function closeMenu() {
 nav.classList.remove("active")
 }
 
-
-

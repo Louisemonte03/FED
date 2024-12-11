@@ -7,11 +7,7 @@
 
   }
   
-  
 
-
-
-  
   
   /*********************/
   /* CUSTOM PROPERTIES */
@@ -61,48 +57,10 @@
   body{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-    background-color: white;
-    color: black; /* Donkergrijze of zwarte tekst */
   }
   
   
-  @media (prefers-color-scheme: dark) {
-    body {
-        background-color: black;
-        color: white; /* Witte tekst in dark mode */
-    }
-  }
-    
-  @media (prefers-color-scheme: dark) {
-    ul li svg path {
-        fill: white; 
-    }
-  }
-  
-  @media (prefers-color-scheme: dark) {
-  ul button {
-    fill: white;
-  
-  }
-  }
-  
-  @media (prefers-color-scheme: dark) {
-  button svg path {
-      fill: white; 
-  }
-  }
 
-  @media (prefers-color-scheme: dark) {
-    summary {
-        color: var(--color-text-black); 
-    }
-}
-@media (prefers-color-scheme: dark) {
-  h4 {
-      color: var(--color-text-black); 
-  }
-}
 
   
   
@@ -213,10 +171,10 @@ header section:nth-of-type(1) li:first-child svg path {
 
 header section:nth-of-type(2) { 
   display: grid;
-  grid-template-columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr);
-  grid-template-rows: (1fr, 1fr);
+  grid-template-columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr,);
+  grid-template-rows: (1fr, 1fr,);
 align-items: center;
-margin-top: 15px;
+margin-top: 5px;
 }
 
 
@@ -268,7 +226,7 @@ header section:nth-of-type(2),
 header section:nth-of-type(3),
 header section:nth-of-type(4) {
   margin-inline: auto;
-width:min( 90em, 100% - 4em );
+width:min( 85em, 100% - 4em );
 }
 
 header section:nth-of-type(3) ul{
@@ -481,7 +439,7 @@ header nav li:hover{
 
 @media (width < 60em){
   header section:nth-of-type(2) form {
-    grid-column: span 6 / span 6;
+    grid-column:  span 6 /  7;
     grid-row-start:3;
   }
 }
@@ -575,13 +533,13 @@ color: var(--color-text-black);
   margin: 0;
 }
 
-section article a:first-of-type{
-  color: black;
-  font-size: 12px;
+
+
+footer a {
+  color: var(--color-text-black);
 }
 
-
-section article a:nth-of-type(2) {
+footer section article a:nth-of-type(2) {
 background-color: var(--color-background-black);
   color: white; 
   font-weight: bold; 

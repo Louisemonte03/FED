@@ -608,7 +608,7 @@ main div img{
 
 
 
-@media (min-width: 768px) {
+@media (min-width:  48em) {
   main div {
       columns: 3;
   }

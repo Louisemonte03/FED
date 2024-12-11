@@ -141,7 +141,7 @@ h2{
 
 
 
-@media (min-width: 786px) {
+@media (min-width: 48em) {
   h1 h2 {
     font-size: 36px;  
    
@@ -225,7 +225,7 @@ button {
     display: block; 
 }
 
-@media (min-width: 1000px) { 
+@media (min-width: 62em) { 
     button {
         display: none; 
     }
@@ -299,7 +299,7 @@ header section:nth-of-type(3) ul li a:hover {
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 62em) {
   header section:nth-of-type(3) {
     display: none;
   }
@@ -312,7 +312,7 @@ header section:nth-of-type(4) {
 }
 
 
-@media (min-width: 1000px) {
+@media (min-width: 62em) {
   header section:nth-of-type(4) {
     display: block; 
   }
@@ -537,7 +537,7 @@ form input{
 
 
 
-@media (min-width: 768px){
+@media (min-width: 48em){
   footer section {
     grid-template-columns: 1fr 1fr 1fr;
   }

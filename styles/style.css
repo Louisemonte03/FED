@@ -410,6 +410,10 @@ font-size: var(--font-size-normaal);
 }
 
 
+main section:nth-of-type(7) li b {
+  font-weight: bold;
+  text-decoration: underline;
+}
 
 
 /* gedeelte van de ideeen op basis van producten */
@@ -596,6 +600,7 @@ main div {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto repeat(9, 1fr);
 gap: 1em;
+margin-top: 2em;
 }
 
 

@@ -7,7 +7,10 @@
 
   }
   
+  
 
+
+  
   
   /*********************/
   /* CUSTOM PROPERTIES */
@@ -57,9 +60,50 @@
   body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    background-color: white;
+    color: black;
   }
   
   
+  @media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white; /* Witte tekst in dark mode */
+    }
+  }
+    
+  @media (prefers-color-scheme: dark) {
+    ul li svg path {
+        fill: white; 
+    }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+  ul button {
+    fill: white;
+  
+  }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+  button svg path {
+      fill: white; 
+  }
+  }
+
+
+  @media (prefers-color-scheme: dark) {
+    summary {
+        color: var(--color-text-black); 
+    }
+}
+@media (prefers-color-scheme: dark) {
+  h4 {
+      color: var(--color-text-black); 
+  }
+}
+
 
 
   

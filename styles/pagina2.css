@@ -76,10 +76,7 @@
   font-size: var(--font-size-normaal);
   }
   
-  body{
-    font-family:"Ikea font";
-   
-  }
+
   
   h1 {
     padding-top: 1em;
@@ -198,7 +195,7 @@ main section:nth-of-type(2) img:nth-of-type(5){
 /* section met de "vind de keuekn die bij je past */
 
 main section:nth-of-type(3) img {
-    width:14em; 
+    width:11em; 
   }
   
   main section:nth-of-type(3) {
@@ -213,13 +210,13 @@ main section:nth-of-type(3) img {
       top: 80%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 10px;
+      font-size: 8px;
    background-color: var(--color-background-lightgray);
      color: var(--color-text-black);
       text-decoration: none;
       padding: 1em;
-      padding-left: 3em;
-      padding-right: 3em;
+      padding-left: 1em;
+      padding-right: 1em;
       font-weight: 600;
       border-radius: 40em;
     }
@@ -264,7 +261,7 @@ background-color: var(--color-background-white);
     padding: 1em;
     font-weight: bold;
     border-radius: 5em;
-font-size: var(--font-size-links);
+font-size: 8px;
     margin: 3rem;
     padding-left: 2em;
     padding-right: 2em;
@@ -409,7 +406,7 @@ background-color: var(--color-background-black);
   padding: 1em;
   font-weight: bold;
   border-radius: 5em;
-  font-size: 12px;
+  font-size: 9px;
   margin: 3rem;
   padding-left: 2em;
   padding-right: 2em;
@@ -732,7 +729,6 @@ main section:nth-of-type(17) {
   display: flex;
   gap: 1em;
   overflow-x: auto;
-
 }
 
 main section:nth-of-type(17) article {
@@ -741,7 +737,7 @@ color: var(--color-text-darkgray);
 padding-top: 0.5em;
 padding-bottom: 4em;
 font-family: "Ikea font";
-width: min(90%, 20em);
+width: min(100%, 25em);
 flex-shrink: 0; /* doet niet shrinken omdat het 0 is */
 }
 

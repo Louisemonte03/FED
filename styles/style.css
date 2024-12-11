@@ -71,7 +71,7 @@
 
 main {
 margin-inline: auto;
-width:min( 85em, 100% - 4em );
+width:min( 85em, 100% - 4em ); /* bron sanne */
 }
 
 main h2{
@@ -130,7 +130,7 @@ main section:nth-of-type(2) ul {
   
   scroll-snap-type:x mandatory;
   
-  overscroll-behavior-x:contain;
+  overscroll-behavior-x:contain; /* bron sanne */
 }
 
 main section:nth-of-type(2) li {
@@ -260,7 +260,7 @@ main section:nth-of-type(4) img {
 main section:nth-of-type(4) {
   display: flex;
   overflow-x: auto;
-  scroll-snap-type: x mandatory; /*zorgt er voor dat de scroll functie blijft op de pagina en niet naar buiten trekt (gevraagt aan chat)*/
+  scroll-snap-type: x mandatory; /*zorgt er voor dat de scroll functie blijft op de pagina en niet naar buiten trekt (gevraagt aan chatgpt) dus bron is chat gpt*/
   gap: 20px;
   }
 
@@ -268,7 +268,7 @@ main section:nth-of-type(4) {
     position: absolute;
     top: 80%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   /* hier kreeg ik niet mijn link in mijn afbeelding, hier heb ik het chat gpt gevraagd, dus bron chat gpt */
   font-size: var(--font-size-links);
     background-color: var(--color-background-lightgray);
  color: var(--color-text-black);
@@ -297,7 +297,7 @@ main section:nth-of-type(5) img {
 main section:nth-of-type(5) {
   display: flex;
   overflow-x: auto;
-  scroll-snap-type: x mandatory; /*zorgt er voor dat de scroll functie blijft op de pagina en niet naar buiten trekt (gevraagt aan chat)*/
+  scroll-snap-type: x mandatory; /*zorgt er voor dat de scroll functie blijft op de pagina en niet naar buiten trekt (gevraagt aan chat gpt)*/
   gap: 20px;
   }
 
@@ -411,7 +411,7 @@ main section:nth-of-type(7) li b {
 
 main section:nth-of-type(8) img {
   width: 300px;
-  object-fit: cover;
+  object-fit: cover;  
 }
 
 
@@ -452,7 +452,7 @@ main section:nth-of-type(8) div p {
   font-size: 10px;
 }
 
-main section:nth-of-type(8) ul li > svg:first-of-type{
+main section:nth-of-type(8) ul li > svg:first-of-type{  /* ik kreeg de eerste svg niet aangesproken dus ik had aan chat gpt gevraagf heo ik dat het beste kan doen, dus bron is chat gpt */
 position: absolute;
 top: 10px;
 left: 10px;
@@ -475,7 +475,7 @@ main section:nth-of-type(9) img {
 main section:nth-of-type(9) {
   display: flex;
   overflow-x: auto;
-  scroll-snap-type: x mandatory; /*zorgt er voor dat de scroll functie blijft op de pagina en niet naar buiten trekt (gevraagt aan chat)*/
+  scroll-snap-type: x mandatory; /*zorgt er voor dat de scroll functie blijft op de pagina en niet naar buiten trekt (gevraagt aan chat gpt)*/
   gap: 15px;
 
 }
@@ -511,8 +511,8 @@ main section:nth-of-type(9) article {
 
 main section:nth-of-type(10) {
   display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory; /*zorgt er voor dat de scroll functie blijft op de pagina en niet naar buiten trekt (gevraagt aan chat)*/
+  overflow-x: auto; 
+  scroll-snap-type: x mandatory; /*zorgt er voor dat de scroll functie blijft op de pagina en niet naar buiten trekt (gevraagt aan chat gpt)*/
   gap: 15px;
   margin-top: 1em;
   }

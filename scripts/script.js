@@ -15,3 +15,5 @@ function closeMenu() {
 nav.classList.remove("active")
 }
 
+
+/* gedaan samen met ali, bron ali */

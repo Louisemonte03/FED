@@ -140,7 +140,7 @@ main section:nth-of-type(2) img:nth-of-type(5){
   grid-row: 6/9;
 }
 
-@media (min-width:48em){main section:nth-of-type(2)
+@media (min-width:48em){main section:nth-of-type(2)   /* regel 143 tot 149  van ikea zelf. Ik heb de grid geinspecteerd van IKEA zelf omdat het mij niet lukte. Zij gebruikte hier min max in hun row en columns*/ 
   {
     grid-template-columns: repeat(15, minmax(0, 1fr));
     grid-template-rows: repeat(7, minmax(0, 1fr));
@@ -675,7 +675,7 @@ main section:nth-of-type(15) div p {
   font-size: 10px;
 }
 
-main section:nth-of-type(15) ul li > svg:first-of-type{
+main section:nth-of-type(15) ul li > svg:first-of-type{    /* ik kreeg de eerste svg niet aangesproken dus ik had aan chat gpt gevraagf heo ik dat het beste kan doen, dus bron is chat gpt */
 position: absolute;
 top: 10px;
 left: 10px;
@@ -738,7 +738,7 @@ padding-top: 0.5em;
 padding-bottom: 4em;
 font-family: "Ikea font";
 width: min(100%, 25em);
-flex-shrink: 0; /* doet niet shrinken omdat het 0 is */
+flex-shrink: 0; /* doet niet shrinken omdat het 0 is  door sanne */
 }
 
 

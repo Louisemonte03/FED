@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (Louise Monte)
+ (Louise Monte)
 
   #### Je startniveau:
   hier je startniveau (Rood)
@@ -157,7 +157,60 @@ Deze week, bij de derde stand van zaken, merkte ik dat ik een beetje achterliep 
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-Over het algemeen wat er is verbeterd is dat de screen reader wel nu beter de headings voorleest. ook met de aria lables ondersteunt het meer. Met de muis en toetsenboard kan ik er makkelijk door heen.
+
+Uit de WCAG - test van IKEA zijn een paar belangrijke bevindingen te vinden. 
+
+
+1. Content 
+Bij het onderdeel content scoorde IKEA goed. Daar was niet iets echt om te verbeteren. In mijn eigen website heb ik ook duidelijke taal en dat buttons, links en labels er anders uit ziet. Maar zoals ik al aangaf is dat IKEA geen foute hier op scoorde. Dus ik heb het design van de IKEA website aangehouden met de links, buttons en forms. 
+
+2. Global code
+Bij het onderdeel Global code scoorde IKEA bij de validate en de lang attribute on the html element niet goed. Over het algemeen zaten er in IKEA website veel errors in de HTML. Dat heb ik weten te verbeteren. 
+
+3. Keyboard
+Bij het onderdeel Keyboard scoorde IKEA ook normaal. Je kon er door heen met de taptoetsen. In mijn eigen website heb ik dit gelaten
+
+4. Mobile and touch 
+Bij het onderdeel Mobile and touch scoorde IKEA ook goed. Hier heb ik geen bijzondere wijzigingen gedaan voor op mijn eigen website. 
+
+5. Headings
+Bij het onderdeal van de heading scoorde de orginele website van IKEA goed. Ze hadden duidelijke koppjes en ook een logische volgorden. Bij mijn IKEA website heb ik het zelfde gedaan.
+
+6. List
+Bij het onder deel list. is e over het algemeen zelf gebruikt gemaakt voor bijna alles wat te maken heeft met ul. Het zelfde heb ik gedaan voor mijn website.
+
+7. Images
+Bij het onderdeel images scoorde IKEA over het algemeen heel slecht. Alles was een "no". IKEA maakte geen gebruik van alt attributes, of enige discription voor hun afbeeldingen. Als een blind iemand er dan doorheen bladerd met de tap toesten. Dan werd de image niet omschreven. Bij mijn IKEA website heb ik dat wel toegevoegd. Een bijschrijf met een omschrijving van wat er op de afbeelding staat. Zodat het ook voor zulke gebruikers toegankelijk kan zijn. 
+
+8. Media
+Bij het onderdeel media scoorde IKEA niet goed. Zij maakte gebruik van een video die autoplay deed. En dat er bij de video captions of bij de audio transcripts zijn. Daar maakte IKEA geen gebruik van. In mijn eigen website van IKEA heb ik alleen de video op 'niet autoplay' staan zodat de video zich niet gaat afspelen wanneer de website wordt geopend. 
+
+9. Controls
+Bij het onderdeel controls scoorde IKEA wel redelijk goed. Een paar no's waarvan ik er eentje kon veranderen. Als je bij de IKEA website op een link klitk dan opent de link in de zelfde tab. Daar scroorde IKEA "no" op. In mijn website is dat niet en dan opent er een nieuwe link op een nieuw tablad. 
+
+10. Appearance
+Bij het onderdeel appearance scoorde IKEA slecht. Over het algemeen hebben zij geen light darkmode. Bij mijn website heb ik wel de light dark mode toegevoegd. 
+
+11. Animation
+Bij het onderdeel Animation scooorde IKEA over het algemeen niet goed. Maar dat is niet erg want IKEA maakt niet echt gebruiik van animaties. Ik heb daar mijn deel ook niet aan bij genomen. Ik heb gekzoen voor responsive dus ik heb geen gebruik gemaakt van animaties. 
+
+12. Color contras
+Bij het odner deel Color contrasScoorde IKEA goed, dus over het algemeen waren daar geen aanpassingen voor nodig.
+
+
+
+
+Bevindingen op een rijtje:
+
+
+
+- content en structuur: IKEA scoorde goed op content, met duidelijke taal en visuele consistentie voor buttons, links en labels. Dit is overgenomen in mijn eigen ontwerp.
+- Toegankelijkheid: Ik heb de toegankelijkheid verbeterd door alt-attributen toe te voegen aan afbeeldingen en autoplay voor video's uit te schakelen.
+- HTML-validatie: De IKEA's website bevatte veel fouten in de HTML-code. Deze zijn in mijn code gecorrigeerd.
+- Dark mode: IKEA biedt geen light/dark mode, maar ik hebt deze functionaliteit toegevoegd aan mijn website.
+- Links en tabs: IKEA opent links in dezelfde tab, mijn website doet dat niet
+
+
 
 </details>
 
